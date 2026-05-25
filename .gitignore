@@ -1,0 +1,49 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project: outputs (regenerable, doesn't belong in the repo)
+results/
+outputs/
+*.log
+wandb/
+
+# Project: model weights and large data (live on disk, not in git)
+*.bin
+*.safetensors
+*.pt
+*.pth
+checkpoints/
+
+# Project: cloned upstream code (we clone HuatuoGPT-Vision separately at runtime)
+HuatuoGPT-Vision/
+
+# Project: downloaded eval data (large, lives on disk)
+Medical_Multimodal_Evaluation_Data/
