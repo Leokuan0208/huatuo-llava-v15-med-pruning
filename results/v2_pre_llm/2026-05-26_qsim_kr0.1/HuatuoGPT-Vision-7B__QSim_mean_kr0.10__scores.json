@@ -1,0 +1,22 @@
+{
+  "OmniMedVQA": 0.6485077310320029,
+  "PMC-VQA_test": 0.4525,
+  "PathVQA_test": 0.5452111838191552,
+  "SLAKE_test": 0.7211538461538461,
+  "VQA-RAD_test": 0.549800796812749,
+  "MMMU_Medical_Validation": 0.4689655172413793,
+  "The total score for multiple-choice questions": 0.6045785639958376,
+  "OmniMedVQA_MR (Mag-netic Resonance Imaging)": 0.6732673267326733,
+  "OmniMedVQA_ultrasound": 0.5657311669128509,
+  "OmniMedVQA_OCT (Optical Coherence Tomography": 0.7824561403508772,
+  "OmniMedVQA_Dermoscopy": 0.6155778894472361,
+  "OmniMedVQA_CT(Computed Tomography)": 0.5781014565544952,
+  "OmniMedVQA_X-Ray": 0.6722276741903828,
+  "OmniMedVQA_Microscopy Images": 0.6167582417582418,
+  "OmniMedVQA_Fundus Photography": 0.8099041533546326,
+  "MMMU_Medical_Validation_validation_Public_Health": 0.43333333333333335,
+  "MMMU_Medical_Validation_validation_Diagnostics_and_Laboratory_Medicine": 0.4,
+  "MMMU_Medical_Validation_validation_Pharmacy": 0.4444444444444444,
+  "MMMU_Medical_Validation_validation_Basic_Medical_Science": 0.5714285714285714,
+  "MMMU_Medical_Validation_validation_Clinical_Medicine": 0.5
+}

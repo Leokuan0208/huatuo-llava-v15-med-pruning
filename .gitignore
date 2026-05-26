@@ -30,7 +30,7 @@ dist/
 Thumbs.db
 
 # Project: outputs (regenerable, doesn't belong in the repo)
-results/
+results/*
 outputs/
 *.log
 wandb/
@@ -47,3 +47,12 @@ HuatuoGPT-Vision/
 
 # Project: downloaded eval data (large, lives on disk)
 Medical_Multimodal_Evaluation_Data/
+
+# Exceptions: keep small result artifacts under version control.
+# Predictions and partial checkpoints stay ignored (too large).
+!results/**/*__scores.json
+!results/**/*__latency_summary.json
+!results/**/eval.log
+!results/**/*_summary.txt
+!results/v2_pre_llm/.gitkeep
+!results/v1_post_layer0/.gitkeep

@@ -1,0 +1,14 @@
+{
+  "n_samples": 17303,
+  "total_time_s": 2174.343305851682,
+  "mean_time_s": 0.12566279291751037,
+  "p50_time_s": 0.09483816905412823,
+  "p95_time_s": 0.2829156799707562,
+  "mean_gpu_peak_mb": 17097.345497828457,
+  "mean_visual_post_prune": 58.0,
+  "config": {
+    "pruner": "random",
+    "keep_ratio": 0.1,
+    "qsim_reduction": "mean"
+  }
+}

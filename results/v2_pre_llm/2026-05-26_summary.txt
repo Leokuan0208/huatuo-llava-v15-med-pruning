@@ -1,0 +1,307 @@
+=== SCORES ===
+--- 2026-05-26_qsim_kr0.1 ---
+{
+  "OmniMedVQA": 0.6485077310320029,
+  "PMC-VQA_test": 0.4525,
+  "PathVQA_test": 0.5452111838191552,
+  "SLAKE_test": 0.7211538461538461,
+  "VQA-RAD_test": 0.549800796812749,
+  "MMMU_Medical_Validation": 0.4689655172413793,
+  "The total score for multiple-choice questions": 0.6045785639958376,
+  "OmniMedVQA_MR (Mag-netic Resonance Imaging)": 0.6732673267326733,
+  "OmniMedVQA_ultrasound": 0.5657311669128509,
+  "OmniMedVQA_OCT (Optical Coherence Tomography": 0.7824561403508772,
+  "OmniMedVQA_Dermoscopy": 0.6155778894472361,
+  "OmniMedVQA_CT(Computed Tomography)": 0.5781014565544952,
+  "OmniMedVQA_X-Ray": 0.6722276741903828,
+  "OmniMedVQA_Microscopy Images": 0.6167582417582418,
+  "OmniMedVQA_Fundus Photography": 0.8099041533546326,
+  "MMMU_Medical_Validation_validation_Public_Health": 0.43333333333333335,
+  "MMMU_Medical_Validation_validation_Diagnostics_and_Laboratory_Medicine": 0.4,
+  "MMMU_Medical_Validation_validation_Pharmacy": 0.4444444444444444,
+  "MMMU_Medical_Validation_validation_Basic_Medical_Science": 0.5714285714285714,
+  "MMMU_Medical_Validation_validation_Clinical_Medicine": 0.5
+}
+--- 2026-05-26_qsim_kr0.25 ---
+{
+  "OmniMedVQA": 0.6806903991370011,
+  "PMC-VQA_test": 0.4685,
+  "PathVQA_test": 0.5508625817965497,
+  "SLAKE_test": 0.7572115384615384,
+  "VQA-RAD_test": 0.5657370517928287,
+  "MMMU_Medical_Validation": 0.46206896551724136,
+  "The total score for multiple-choice questions": 0.6292634986703665,
+  "OmniMedVQA_MR (Mag-netic Resonance Imaging)": 0.6945544554455445,
+  "OmniMedVQA_ultrasound": 0.6166912850812407,
+  "OmniMedVQA_OCT (Optical Coherence Tomography": 0.8210526315789474,
+  "OmniMedVQA_Dermoscopy": 0.6821608040201005,
+  "OmniMedVQA_CT(Computed Tomography)": 0.6142641888498243,
+  "OmniMedVQA_X-Ray": 0.7203140333660452,
+  "OmniMedVQA_Microscopy Images": 0.6332417582417582,
+  "OmniMedVQA_Fundus Photography": 0.8019169329073482,
+  "MMMU_Medical_Validation_validation_Public_Health": 0.4,
+  "MMMU_Medical_Validation_validation_Diagnostics_and_Laboratory_Medicine": 0.4,
+  "MMMU_Medical_Validation_validation_Pharmacy": 0.48148148148148145,
+  "MMMU_Medical_Validation_validation_Basic_Medical_Science": 0.5,
+  "MMMU_Medical_Validation_validation_Clinical_Medicine": 0.5333333333333333
+}
+--- 2026-05-26_qsim_kr0.5 ---
+{
+  "OmniMedVQA": 0.7117943185904351,
+  "PMC-VQA_test": 0.488,
+  "PathVQA_test": 0.5594883997620465,
+  "SLAKE_test": 0.7764423076923077,
+  "VQA-RAD_test": 0.5697211155378487,
+  "MMMU_Medical_Validation": 0.47586206896551725,
+  "The total score for multiple-choice questions": 0.6538328130419702,
+  "OmniMedVQA_MR (Mag-netic Resonance Imaging)": 0.7089108910891089,
+  "OmniMedVQA_ultrasound": 0.7230428360413589,
+  "OmniMedVQA_OCT (Optical Coherence Tomography": 0.8473684210526315,
+  "OmniMedVQA_Dermoscopy": 0.7123115577889447,
+  "OmniMedVQA_CT(Computed Tomography)": 0.6413862380713209,
+  "OmniMedVQA_X-Ray": 0.7566241413150148,
+  "OmniMedVQA_Microscopy Images": 0.6456043956043956,
+  "OmniMedVQA_Fundus Photography": 0.8099041533546326,
+  "MMMU_Medical_Validation_validation_Public_Health": 0.4666666666666667,
+  "MMMU_Medical_Validation_validation_Diagnostics_and_Laboratory_Medicine": 0.43333333333333335,
+  "MMMU_Medical_Validation_validation_Pharmacy": 0.4074074074074074,
+  "MMMU_Medical_Validation_validation_Basic_Medical_Science": 0.5,
+  "MMMU_Medical_Validation_validation_Clinical_Medicine": 0.5666666666666667
+}
+--- 2026-05-26_qsim_kr0.75 ---
+{
+  "OmniMedVQA": 0.7252786767349874,
+  "PMC-VQA_test": 0.497,
+  "PathVQA_test": 0.5719809637120762,
+  "SLAKE_test": 0.7572115384615384,
+  "VQA-RAD_test": 0.6175298804780877,
+  "MMMU_Medical_Validation": 0.47586206896551725,
+  "The total score for multiple-choice questions": 0.6662041854549658,
+  "OmniMedVQA_MR (Mag-netic Resonance Imaging)": 0.7232673267326732,
+  "OmniMedVQA_ultrasound": 0.7614475627769571,
+  "OmniMedVQA_OCT (Optical Coherence Tomography": 0.8543859649122807,
+  "OmniMedVQA_Dermoscopy": 0.6947236180904522,
+  "OmniMedVQA_CT(Computed Tomography)": 0.6489201406328479,
+  "OmniMedVQA_X-Ray": 0.7821393523061825,
+  "OmniMedVQA_Microscopy Images": 0.6483516483516484,
+  "OmniMedVQA_Fundus Photography": 0.8210862619808307,
+  "MMMU_Medical_Validation_validation_Public_Health": 0.4666666666666667,
+  "MMMU_Medical_Validation_validation_Diagnostics_and_Laboratory_Medicine": 0.43333333333333335,
+  "MMMU_Medical_Validation_validation_Pharmacy": 0.4074074074074074,
+  "MMMU_Medical_Validation_validation_Basic_Medical_Science": 0.4642857142857143,
+  "MMMU_Medical_Validation_validation_Clinical_Medicine": 0.6
+}
+--- 2026-05-26_random_kr0.1 ---
+{
+  "OmniMedVQA": 0.6869830996044588,
+  "PMC-VQA_test": 0.4595,
+  "PathVQA_test": 0.5698988697204045,
+  "SLAKE_test": 0.7403846153846154,
+  "VQA-RAD_test": 0.5537848605577689,
+  "MMMU_Medical_Validation": 0.496551724137931,
+  "The total score for multiple-choice questions": 0.6356804254827148,
+  "OmniMedVQA_MR (Mag-netic Resonance Imaging)": 0.6888613861386138,
+  "OmniMedVQA_ultrasound": 0.6824224519940916,
+  "OmniMedVQA_OCT (Optical Coherence Tomography": 0.8403508771929824,
+  "OmniMedVQA_Dermoscopy": 0.6708542713567839,
+  "OmniMedVQA_CT(Computed Tomography)": 0.5946760421898544,
+  "OmniMedVQA_X-Ray": 0.7448478900883219,
+  "OmniMedVQA_Microscopy Images": 0.6332417582417582,
+  "OmniMedVQA_Fundus Photography": 0.8274760383386581,
+  "MMMU_Medical_Validation_validation_Public_Health": 0.4666666666666667,
+  "MMMU_Medical_Validation_validation_Diagnostics_and_Laboratory_Medicine": 0.36666666666666664,
+  "MMMU_Medical_Validation_validation_Pharmacy": 0.4074074074074074,
+  "MMMU_Medical_Validation_validation_Basic_Medical_Science": 0.6785714285714286,
+  "MMMU_Medical_Validation_validation_Clinical_Medicine": 0.5666666666666667
+}
+--- 2026-05-26_random_kr0.25 ---
+{
+  "OmniMedVQA": 0.7122437971952535,
+  "PMC-VQA_test": 0.4925,
+  "PathVQA_test": 0.5764425936942297,
+  "SLAKE_test": 0.7211538461538461,
+  "VQA-RAD_test": 0.5697211155378487,
+  "MMMU_Medical_Validation": 0.5241379310344828,
+  "The total score for multiple-choice questions": 0.657012371372413,
+  "OmniMedVQA_MR (Mag-netic Resonance Imaging)": 0.7059405940594059,
+  "OmniMedVQA_ultrasound": 0.7304283604135894,
+  "OmniMedVQA_OCT (Optical Coherence Tomography": 0.868421052631579,
+  "OmniMedVQA_Dermoscopy": 0.6947236180904522,
+  "OmniMedVQA_CT(Computed Tomography)": 0.6313410346559518,
+  "OmniMedVQA_X-Ray": 0.7752698724239451,
+  "OmniMedVQA_Microscopy Images": 0.6414835164835165,
+  "OmniMedVQA_Fundus Photography": 0.8306709265175719,
+  "MMMU_Medical_Validation_validation_Public_Health": 0.5333333333333333,
+  "MMMU_Medical_Validation_validation_Diagnostics_and_Laboratory_Medicine": 0.4666666666666667,
+  "MMMU_Medical_Validation_validation_Pharmacy": 0.4444444444444444,
+  "MMMU_Medical_Validation_validation_Basic_Medical_Science": 0.5714285714285714,
+  "MMMU_Medical_Validation_validation_Clinical_Medicine": 0.6
+}
+--- 2026-05-26_random_kr0.5 ---
+{
+  "OmniMedVQA": 0.7284250269687162,
+  "PMC-VQA_test": 0.5235,
+  "PathVQA_test": 0.5812016656751934,
+  "SLAKE_test": 0.7572115384615384,
+  "VQA-RAD_test": 0.5896414342629482,
+  "MMMU_Medical_Validation": 0.5103448275862069,
+  "The total score for multiple-choice questions": 0.6729679731760897,
+  "OmniMedVQA_MR (Mag-netic Resonance Imaging)": 0.7198019801980198,
+  "OmniMedVQA_ultrasound": 0.7592319054652881,
+  "OmniMedVQA_OCT (Optical Coherence Tomography": 0.8736842105263158,
+  "OmniMedVQA_Dermoscopy": 0.7160804020100503,
+  "OmniMedVQA_CT(Computed Tomography)": 0.6539427423405324,
+  "OmniMedVQA_X-Ray": 0.7929342492639843,
+  "OmniMedVQA_Microscopy Images": 0.6538461538461539,
+  "OmniMedVQA_Fundus Photography": 0.8194888178913738,
+  "MMMU_Medical_Validation_validation_Public_Health": 0.3333333333333333,
+  "MMMU_Medical_Validation_validation_Diagnostics_and_Laboratory_Medicine": 0.4666666666666667,
+  "MMMU_Medical_Validation_validation_Pharmacy": 0.5185185185185185,
+  "MMMU_Medical_Validation_validation_Basic_Medical_Science": 0.5714285714285714,
+  "MMMU_Medical_Validation_validation_Clinical_Medicine": 0.6666666666666666
+}
+--- 2026-05-26_random_kr0.75 ---
+{
+  "OmniMedVQA": 0.7318410643653362,
+  "PMC-VQA_test": 0.533,
+  "PathVQA_test": 0.5696014277215943,
+  "SLAKE_test": 0.7716346153846154,
+  "VQA-RAD_test": 0.6095617529880478,
+  "MMMU_Medical_Validation": 0.503448275862069,
+  "The total score for multiple-choice questions": 0.6745866574170424,
+  "OmniMedVQA_MR (Mag-netic Resonance Imaging)": 0.7235148514851485,
+  "OmniMedVQA_ultrasound": 0.7710487444608567,
+  "OmniMedVQA_OCT (Optical Coherence Tomography": 0.875438596491228,
+  "OmniMedVQA_Dermoscopy": 0.6947236180904522,
+  "OmniMedVQA_CT(Computed Tomography)": 0.6554495228528378,
+  "OmniMedVQA_X-Ray": 0.8017664376840039,
+  "OmniMedVQA_Microscopy Images": 0.6483516483516484,
+  "OmniMedVQA_Fundus Photography": 0.8434504792332268,
+  "MMMU_Medical_Validation_validation_Public_Health": 0.4666666666666667,
+  "MMMU_Medical_Validation_validation_Diagnostics_and_Laboratory_Medicine": 0.43333333333333335,
+  "MMMU_Medical_Validation_validation_Pharmacy": 0.48148148148148145,
+  "MMMU_Medical_Validation_validation_Basic_Medical_Science": 0.5357142857142857,
+  "MMMU_Medical_Validation_validation_Clinical_Medicine": 0.6
+}
+
+=== LATENCY ===
+--- 2026-05-26_qsim_kr0.1 ---
+{
+  "n_samples": 17303,
+  "total_time_s": 2241.4084475140553,
+  "mean_time_s": 0.12953871857562593,
+  "p50_time_s": 0.09691521001514047,
+  "p95_time_s": 0.29818663699552417,
+  "mean_gpu_peak_mb": 17097.347280874794,
+  "mean_visual_post_prune": 58.0,
+  "config": {
+    "pruner": "qsim",
+    "keep_ratio": 0.1,
+    "qsim_reduction": "mean"
+  }
+}
+--- 2026-05-26_qsim_kr0.25 ---
+{
+  "n_samples": 17303,
+  "total_time_s": 2283.331418332993,
+  "mean_time_s": 0.1319615915351669,
+  "p50_time_s": 0.09668229997623712,
+  "p95_time_s": 0.31087993003893644,
+  "mean_gpu_peak_mb": 17177.915341405755,
+  "mean_visual_post_prune": 144.0,
+  "config": {
+    "pruner": "qsim",
+    "keep_ratio": 0.25,
+    "qsim_reduction": "mean"
+  }
+}
+--- 2026-05-26_qsim_kr0.5 ---
+{
+  "n_samples": 17303,
+  "total_time_s": 2345.9505295483395,
+  "mean_time_s": 0.13558056577173552,
+  "p50_time_s": 0.105693164980039,
+  "p95_time_s": 0.30966025800444186,
+  "mean_gpu_peak_mb": 17312.004128478216,
+  "mean_visual_post_prune": 288.0,
+  "config": {
+    "pruner": "qsim",
+    "keep_ratio": 0.5,
+    "qsim_reduction": "mean"
+  }
+}
+--- 2026-05-26_qsim_kr0.75 ---
+{
+  "n_samples": 17303,
+  "total_time_s": 2598.3643650242593,
+  "mean_time_s": 0.1501684311983043,
+  "p50_time_s": 0.11683381896000355,
+  "p95_time_s": 0.3484925429802388,
+  "mean_gpu_peak_mb": 17446.213974280337,
+  "mean_visual_post_prune": 432.0,
+  "config": {
+    "pruner": "qsim",
+    "keep_ratio": 0.75,
+    "qsim_reduction": "mean"
+  }
+}
+--- 2026-05-26_random_kr0.1 ---
+{
+  "n_samples": 17303,
+  "total_time_s": 2174.343305851682,
+  "mean_time_s": 0.12566279291751037,
+  "p50_time_s": 0.09483816905412823,
+  "p95_time_s": 0.2829156799707562,
+  "mean_gpu_peak_mb": 17097.345497828457,
+  "mean_visual_post_prune": 58.0,
+  "config": {
+    "pruner": "random",
+    "keep_ratio": 0.1,
+    "qsim_reduction": "mean"
+  }
+}
+--- 2026-05-26_random_kr0.25 ---
+{
+  "n_samples": 17303,
+  "total_time_s": 2120.2621671077795,
+  "mean_time_s": 0.12253725753382533,
+  "p50_time_s": 0.09322264301590621,
+  "p95_time_s": 0.2799554410157725,
+  "mean_gpu_peak_mb": 17177.915341405755,
+  "mean_visual_post_prune": 144.0,
+  "config": {
+    "pruner": "random",
+    "keep_ratio": 0.25,
+    "qsim_reduction": "mean"
+  }
+}
+--- 2026-05-26_random_kr0.5 ---
+{
+  "n_samples": 17303,
+  "total_time_s": 2485.8094577343436,
+  "mean_time_s": 0.14366349521668748,
+  "p50_time_s": 0.10932117304764688,
+  "p95_time_s": 0.3278426959877834,
+  "mean_gpu_peak_mb": 17312.004128478216,
+  "mean_visual_post_prune": 288.0,
+  "config": {
+    "pruner": "random",
+    "keep_ratio": 0.5,
+    "qsim_reduction": "mean"
+  }
+}
+--- 2026-05-26_random_kr0.75 ---
+{
+  "n_samples": 17303,
+  "total_time_s": 2596.845120216254,
+  "mean_time_s": 0.150080628805193,
+  "p50_time_s": 0.11675895599182695,
+  "p95_time_s": 0.34657502395566553,
+  "mean_gpu_peak_mb": 17446.217199199786,
+  "mean_visual_post_prune": 432.0,
+  "config": {
+    "pruner": "random",
+    "keep_ratio": 0.75,
+    "qsim_reduction": "mean"
+  }
+}
