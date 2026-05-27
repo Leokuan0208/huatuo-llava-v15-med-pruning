@@ -32,6 +32,8 @@ from tqdm import tqdm
 from transformers import set_seed
 
 from pruning import RandomPruner, QSimPruner, patcher
+from pruning.gridprune_pruner import GridPrunePruner
+from pruning.fasp_gridprune_pruner import FASPGridPrunePruner
 from pruning.latency import LatencyTracker
 
 from cli import HuatuoChatbot
@@ -44,6 +46,19 @@ def build_pruner(args):
         return RandomPruner(args.keep_ratio, seed=args.seed)
     elif args.pruner == "qsim":
         return QSimPruner(args.keep_ratio, reduction=args.qsim_reduction)
+    elif args.pruner == "gridprune":
+        return GridPrunePruner(
+            keep_ratio=args.keep_ratio,
+            block_size=args.block_size,
+            alpha=args.alpha,
+        )
+    elif args.pruner == "fasp_gridprune":
+        return FASPGridPrunePruner(
+            keep_ratio=args.keep_ratio,
+            block_size=args.block_size,
+            alpha=args.alpha,
+            bg_fraction=args.bg_fraction,
+        )
     elif args.pruner == "none":
         return None
     raise ValueError(f"Unknown pruner: {args.pruner}")
@@ -51,12 +66,24 @@ def build_pruner(args):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--pruner", choices=["random", "qsim", "none"], required=True,
+    parser.add_argument("--pruner",
+                        choices=["random", "qsim", "gridprune", "fasp_gridprune", "none"],
+                        required=True,
                         help="Pruning strategy. 'none' = baseline reproduction with patcher active "
                              "but pruner=None, to verify patcher overhead is zero.")
     parser.add_argument("--keep_ratio", type=float, default=1.0)
     parser.add_argument("--qsim_reduction", choices=["mean", "max"], default="mean",
                         help="How to aggregate text-token similarity for QSim.")
+    parser.add_argument("--block_size", type=int, default=2,
+                        help="Zone block size for GridPrune / FASP+GridPrune. "
+                             "2 = 144 zones of 4 tokens (paper default). "
+                             "Larger = coarser zoning.")
+    parser.add_argument("--alpha", type=float, default=0.5,
+                        help="Weight on text relevance in fused score "
+                             "(α·text + (1-α)·saliency). GridPrune / FASP+GridPrune.")
+    parser.add_argument("--bg_fraction", type=float, default=0.30,
+                        help="FASP: fraction of tokens labeled background "
+                             "(bottom percentile of L2 norm).")
     parser.add_argument("--model_path", required=True)
     parser.add_argument("--data_path", required=True)
     parser.add_argument("--output_dir", required=True)
@@ -157,6 +184,9 @@ def main():
                 "pruner": args.pruner,
                 "keep_ratio": args.keep_ratio,
                 "qsim_reduction": args.qsim_reduction,
+                "block_size": args.block_size,
+                "alpha": args.alpha,
+                "bg_fraction": args.bg_fraction,
             }
             with open(out_latency_summary, "w") as fw:
                 json.dump(lat_summary, fw, indent=2)
