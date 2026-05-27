@@ -30,7 +30,9 @@ dist/
 Thumbs.db
 
 # Project: outputs (regenerable, doesn't belong in the repo)
-results/*
+# Big per-run files (predictions and partial checkpoints are 10+ MB each)
+results/**/*__predictions.json
+results/**/*__checkpoint_partial.json
 outputs/
 *.log
 wandb/
