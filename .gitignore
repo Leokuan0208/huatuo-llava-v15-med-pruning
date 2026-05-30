@@ -58,3 +58,11 @@ Medical_Multimodal_Evaluation_Data/
 !results/**/*_summary.txt
 !results/v2_pre_llm/.gitkeep
 !results/v1_post_layer0/.gitkeep
+
+# Eval outputs — large, regenerable, analyzed in place (not version-controlled)
+results/
+
+# Python / Jupyter cruft
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
